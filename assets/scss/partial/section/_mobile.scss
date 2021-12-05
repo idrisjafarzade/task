@@ -1,0 +1,60 @@
+#mobile{
+    margin: 100px 0px;
+    .box{
+        h6{
+            color: $blue-color;
+        }
+        h2{
+            font-size: $font-size;
+        }
+    }
+    .box1{
+        p{
+            width: 85%;
+        }
+    }
+    .box2{
+        margin-top: 80px;
+        .box-item{
+            .icon{
+                margin-top: 150px;
+                font-size: $font-size   ;
+                color: $blue-color;
+                transition: .7s;
+                &:hover{
+                    transform: translateY(-20px);
+                }
+            }
+            .text{
+               a{
+                   text-decoration: none;
+                   color: black;
+                   h4{
+                       transition: 0.3s;
+                    &:hover{
+                        color: $blue-color;
+                    }
+                }
+               }
+            }
+        }
+    }
+    .box3{
+        img{
+            width: 100%;
+        }
+        .circle{
+            i{
+                visibility: hidden;
+                opacity: 0;
+                transition: 1s;
+                 font-size:$font-size +20px;
+            }
+        }
+        &:hover .circle i{
+            visibility: visible;
+           opacity: 1;
+           transform: translateY(-150px);
+        }
+    }
+}

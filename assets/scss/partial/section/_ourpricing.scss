@@ -1,0 +1,60 @@
+#ourpricing{
+    background: #f6f7f8;
+    margin: 100px 0px;
+    padding: 100px 0px;
+    h6{ 
+        color: $blue-color;
+    }
+    h2{
+        font-size: $font-size +30px;
+    }
+    .button-title{
+        margin: 50px 0px;
+        border-radius: 200px;
+        background-color: $blue-color;
+        width: 300px;
+    }
+    .box-item{
+        margin-left: 3%;
+        .box{ 
+            &:hover .item{
+                background-color: $dark-color;
+                color: $primary-color;
+            }
+            
+            .item{
+                padding: 30px 0px;
+                background-color: white;
+                margin-top: 50px;
+                .number{
+                    font-size: $font-size +20px;
+                }
+                div{
+                    margin-left: 12%;
+                    width: 70%;
+                    .button{
+                        margin-top: 10%;
+                        margin-left: 12%;
+                        border-radius: 200px;
+                        width: 150px;
+                        background-color: $blue-color;
+                        &:hover{
+                            background-color: $primary-color;
+                            border: 1px solid black;
+                        }
+                    }
+                    li{
+                        .succes{
+                            color: chartreuse;
+                        }
+                        .error{
+                            color: red;
+                        }
+                        margin: 10px 0px;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }   
+}

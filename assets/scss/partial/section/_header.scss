@@ -1,0 +1,15 @@
+.navbar{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .nav-item{
+        margin-left: 20px;
+        .link{
+            &:hover{
+             color: $blue-color;
+             border-bottom: 1px solid $blue-color;
+             width: 100%;
+            }
+        }
+    }
+}

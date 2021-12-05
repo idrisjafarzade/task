@@ -1,0 +1,29 @@
+#about{
+    margin-top: 300px;
+    .container{
+        .row{
+            justify-content: center;
+            align-items: center;
+            .box{
+                h2{
+                    font-size:$font-size+30px;
+                    font-weight: 400;
+                    span{
+                        color:$blue-color;
+                    }
+                }
+                p{
+                    margin: 25px 0px;
+                }
+                .button{
+                    background-image: $liner-gradient;
+                }
+            }
+            .box-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

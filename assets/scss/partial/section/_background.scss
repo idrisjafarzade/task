@@ -1,0 +1,17 @@
+#background{
+    margin: 200px 0px;
+    background-image: url(../../../../assets/img/counter-bg.jpg);
+    @include  background-img-design;
+    height: 60vh;
+    background-attachment: fixed;
+    .number{
+        margin-top: 10%;
+        h2{
+            font-size: $font-size+50px;
+        }
+    }
+    .lorem{
+        margin-top: 12%;
+        font-size: 20px;
+    }
+}
